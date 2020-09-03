@@ -1,8 +1,58 @@
-<html>
+<html lang="en-EN">
     <head>
-        <title>Vankka.me</title>
+        <title>Hi, I'm Vankka</title>
+        <style>
+            @font-face {
+                font-family: 'JetBrains Mono';
+                src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/eot/JetBrainsMono-Regular.eot') format('embedded-opentype'),
+                url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+                url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+                url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            * {
+                -webkit-font-feature-settings: "liga" on, "calt" on;
+                -webkit-font-smoothing: antialiased;
+                text-rendering: optimizeLegibility;
+                font-family: 'JetBrains Mono', monospace;
+            }
+
+            body {
+                background-color: #26272D;
+                color: white;
+            }
+
+            a:link {
+                color: #B8B8B8;
+            }
+
+            a:visited {
+                color: #852222;
+            }
+
+            @media only screen and (max-width : 599px) {
+                div {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+            }
+            @media only screen and (min-width : 600px) {
+                div {
+                    padding-left: 100px;
+                    padding-right: 20%;
+                    padding-top: 50px;
+                }
+            }
+        </style>
     </head>
     <body>
-        <h1>Temporary</h1>
+        <div>
+            <h1>Hi, I'm Henri a.k.a. Vankka</h1>
+            <p>I made open source software like <a href="https://github.com/DiscordSRV/DiscordSRV">DiscordSRV</a> in my free time, checkout my <a href="https://github.com/Vankka">GitHub profile</a> for more projects made by me.</p>
+            <a href="mailto:contact@vankka.me">Wanna message me?</a><br/><br/>
+            <small>The font is <a href="https://github.com/JetBrains/JetBrainsMono">Jetbrains Mono</a></small>
+        </div>
     </body>
 </html>
